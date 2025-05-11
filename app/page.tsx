@@ -12,7 +12,18 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>Hello World</h1>
+        <div className="flex flex-col gap-4">
+          <h1 className="text-3xl font-bold">Business Name</h1>
+          <p className="text-gray-500">Short Business Description</p>
+        </div>
+        <div className="flex flex-col gap-4">
+          <h2 className="text-2xl font-bold">Contact Shortcuts</h2>
+          <ul className="flex flex-row gap-2 list-style-type-none">  
+            <li className="text-gray-500">Product 1</li>
+            <li className="text-gray-500">Product 2</li>
+            <li className="text-gray-500">Product 3</li>
+          </ul>
+        </div>
       </main>
     </div>
   );
