@@ -73,6 +73,26 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <div className="w-3/4 flex flex-col gap-4 mt-12">
+        <div className="w-full flex items-center gap-4 rounded-lg bg-white p-6 shadow-md outline outline-black/5 dark:bg-gray-800">
+          <span className="inline-flex shrink-0 rounded-full border border-pink-300 bg-pink-100 p-2 dark:border-pink-300/10 dark:bg-pink-400/10">
+            <Image
+              className="w-6 h-6 dark:invert"
+              src="/icons/smartphone-device.svg"
+              alt="smartphone icon"
+              width={50}
+              height={50}
+            />
+          </span>
+          <div className="w-full">
+            <p className="text-gray-700 dark:text-gray-400">
+              <span className="font-medium text-gray-950 dark:text-white">Tom Watson</span> mentioned you in
+              <span className="font-medium text-gray-950 dark:text-white">Logo redesign</span>
+            </p>
+            <time className="mt-1 block text-gray-500" dateTime="9:37">9:37am</time>
+          </div>
+        </div>
+        </div>
       </main>
     </div>
   );
